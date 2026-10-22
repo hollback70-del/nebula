@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "advanced-crypto-engine-nebula"
+version = "1.0.0"
+description = "A highly secure cryptographic engine with PBKDF2, Fernet and HMAC integrity."
+readme = "README.md"
+authors = [
+    { name = "nebula" }
+]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "cryptography>=40.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/nebula/AdvancedCryptoEngine"
